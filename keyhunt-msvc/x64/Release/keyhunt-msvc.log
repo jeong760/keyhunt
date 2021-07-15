@@ -1,0 +1,96 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Platforms\x64\ImportBefore\Default\vcpkg.system.props(7,3): warning MSB4011: "C:\Users\kanha\AppData\Local\vcpkg\vcpkg.user.props" cannot be imported again. It was already imported at "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Imports\Microsoft.Common.props\ImportBefore\vcpkg.system.props (7,3)". This is most likely a build authoring error. This subsequent import will be ignored. [E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt-msvc.vcxproj]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Platforms\x64\ImportBefore\Default\vcpkg.system.props(8,3): warning MSB4011: "C:\Users\kanha\AppData\Local\vcpkg\vcpkg.user.targets" cannot be imported again. It was already imported at "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Imports\Microsoft.Common.props\ImportBefore\vcpkg.system.props (8,3)". This is most likely a build authoring error. This subsequent import will be ignored. [E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt-msvc.vcxproj]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Platforms\x64\ImportBefore\vcpkg.system.props(7,3): warning MSB4011: "C:\Users\kanha\AppData\Local\vcpkg\vcpkg.user.props" cannot be imported again. It was already imported at "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Imports\Microsoft.Common.props\ImportBefore\vcpkg.system.props (7,3)". This is most likely a build authoring error. This subsequent import will be ignored. [E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt-msvc.vcxproj]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Platforms\x64\ImportBefore\vcpkg.system.props(8,3): warning MSB4011: "C:\Users\kanha\AppData\Local\vcpkg\vcpkg.user.targets" cannot be imported again. It was already imported at "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Imports\Microsoft.Common.props\ImportBefore\vcpkg.system.props (8,3)". This is most likely a build authoring error. This subsequent import will be ignored. [E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt-msvc.vcxproj]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.Cpp.Common.props(263,3): warning MSB4011: "C:\Users\kanha\AppData\Local\vcpkg\vcpkg.user.props" cannot be imported again. It was already imported at "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Imports\Microsoft.Common.props\ImportBefore\vcpkg.system.props (7,3)". This is most likely a build authoring error. This subsequent import will be ignored. [E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt-msvc.vcxproj]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(2486,3): warning MSB4011: "C:\Users\kanha\AppData\Local\vcpkg\vcpkg.user.targets" cannot be imported again. It was already imported at "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Imports\Microsoft.Common.props\ImportBefore\vcpkg.system.props (8,3)". This is most likely a build authoring error. This subsequent import will be ignored. [E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt-msvc.vcxproj]
+  keyhunt.cpp
+E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt.cpp(302,16): warning C4244: 'argument': conversion from 'time_t' to 'unsigned long', possible loss of data
+E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt.cpp(537,31): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt.cpp(632,21): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt.cpp(657,22): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt.cpp(679,22): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt.cpp(772,31): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt.cpp(854,27): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt.cpp(986,23): warning C4244: '=': conversion from 'uint64_t' to 'uint32_t', possible loss of data
+E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt.cpp(1135,31): warning C4244: '=': conversion from 'uint64_t' to 'unsigned long', possible loss of data
+E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt.cpp(1164,20): warning C4553: '==': result of expression not used; did you intend '='?
+E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt.cpp(1199,10): warning C4477: 'printf' : format string '%lu' requires an argument of type 'unsigned long', but variadic argument 1 has type 'uint64_t'
+E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt.cpp(1199,10): message : consider using '%llu' in the format string
+E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt.cpp(1199,10): message : consider using '%Iu' in the format string
+E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt.cpp(1199,10): message : consider using '%I64u' in the format string
+E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt.cpp(1203,21): warning C4477: 'fprintf' : format string '%lu' requires an argument of type 'unsigned long', but variadic argument 1 has type 'uint64_t'
+E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt.cpp(1203,21): message : consider using '%llu' in the format string
+E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt.cpp(1203,21): message : consider using '%Iu' in the format string
+E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt.cpp(1203,21): message : consider using '%I64u' in the format string
+E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt.cpp(1214,10): warning C4477: 'printf' : format string '%lu' requires an argument of type 'unsigned long', but variadic argument 1 has type 'uint64_t'
+E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt.cpp(1214,10): message : consider using '%llu' in the format string
+E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt.cpp(1214,10): message : consider using '%Iu' in the format string
+E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt.cpp(1214,10): message : consider using '%I64u' in the format string
+E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt.cpp(1229,10): warning C4477: 'printf' : format string '%llu' requires an argument of type 'unsigned __int64', but variadic argument 2 has type 'unsigned long'
+E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt.cpp(1229,10): message : consider using '%lu' in the format string
+E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt.cpp(1272,11): warning C4477: 'printf' : format string '%llu' requires an argument of type 'unsigned __int64', but variadic argument 1 has type 'unsigned long'
+E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt.cpp(1272,11): message : consider using '%lu' in the format string
+E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt.cpp(1317,11): warning C4477: 'printf' : format string '%lu' requires an argument of type 'unsigned long', but variadic argument 1 has type 'uint64_t'
+E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt.cpp(1317,11): message : consider using '%llu' in the format string
+E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt.cpp(1317,11): message : consider using '%Iu' in the format string
+E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt.cpp(1317,11): message : consider using '%I64u' in the format string
+E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt.cpp(1319,24): warning C4244: '=': conversion from 'uint64_t' to 'uint32_t', possible loss of data
+E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt.cpp(1329,27): warning C4477: 'printf' : format string '%lu' requires an argument of type 'unsigned long', but variadic argument 1 has type 'uint64_t'
+E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt.cpp(1329,27): message : consider using '%llu' in the format string
+E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt.cpp(1329,27): message : consider using '%Iu' in the format string
+E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt.cpp(1329,27): message : consider using '%I64u' in the format string
+E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt.cpp(1329,27): warning C4477: 'printf' : format string '%lu' requires an argument of type 'unsigned long', but variadic argument 2 has type 'uint64_t'
+E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt.cpp(1329,27): message : consider using '%llu' in the format string
+E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt.cpp(1329,27): message : consider using '%Iu' in the format string
+E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt.cpp(1329,27): message : consider using '%I64u' in the format string
+E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt.cpp(1351,27): warning C4477: 'printf' : format string '%lu' requires an argument of type 'unsigned long', but variadic argument 1 has type 'uint64_t'
+E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt.cpp(1351,27): message : consider using '%llu' in the format string
+E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt.cpp(1351,27): message : consider using '%Iu' in the format string
+E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt.cpp(1351,27): message : consider using '%I64u' in the format string
+E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt.cpp(1351,27): warning C4477: 'printf' : format string '%lu' requires an argument of type 'unsigned long', but variadic argument 2 has type 'uint64_t'
+E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt.cpp(1351,27): message : consider using '%llu' in the format string
+E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt.cpp(1351,27): message : consider using '%Iu' in the format string
+E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt.cpp(1351,27): message : consider using '%I64u' in the format string
+E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt.cpp(1370,11): warning C4477: 'printf' : format string '%lu' requires an argument of type 'unsigned long', but variadic argument 1 has type 'uint64_t'
+E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt.cpp(1370,11): message : consider using '%llu' in the format string
+E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt.cpp(1370,11): message : consider using '%Iu' in the format string
+E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt.cpp(1370,11): message : consider using '%I64u' in the format string
+E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt.cpp(1370,11): warning C4477: 'printf' : format string '%lu' requires an argument of type 'unsigned long', but variadic argument 2 has type 'uint64_t'
+E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt.cpp(1370,11): message : consider using '%llu' in the format string
+E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt.cpp(1370,11): message : consider using '%Iu' in the format string
+E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt.cpp(1370,11): message : consider using '%I64u' in the format string
+E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt.cpp(1387,10): warning C4477: 'printf' : format string '%lu' requires an argument of type 'unsigned long', but variadic argument 1 has type 'uint64_t'
+E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt.cpp(1387,10): message : consider using '%llu' in the format string
+E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt.cpp(1387,10): message : consider using '%Iu' in the format string
+E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt.cpp(1387,10): message : consider using '%I64u' in the format string
+E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt.cpp(1403,13): warning C4244: '=': conversion from 'uint64_t' to 'int', possible loss of data
+E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt.cpp(1442,13): warning C4244: '=': conversion from 'uint64_t' to 'int', possible loss of data
+E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt.cpp(283,52): warning C4101: 'lendiff': unreferenced local variable
+E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt.cpp(283,6): warning C4101: 'readed': unreferenced local variable
+E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt.cpp(1650,8): warning C4101: 'eth_address': unreferenced local variable
+E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt.cpp(1647,72): warning C4101: 'hexstrpoint': unreferenced local variable
+E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt.cpp(1652,16): warning C4101: 'longtemp': unreferenced local variable
+E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt.cpp(2080,44): warning C4244: 'argument': conversion from 'int64_t' to 'double', possible loss of data
+E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt.cpp(2121,8): warning C4101: 'hextemp': unreferenced local variable
+E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt.cpp(2186,44): warning C4244: 'argument': conversion from 'int64_t' to 'double', possible loss of data
+E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt.cpp(2229,8): warning C4101: 'hextemp': unreferenced local variable
+E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt.cpp(2285,8): warning C4101: 'temp_read': unreferenced local variable
+E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt.cpp(2617,54): warning C4101: 'hexvalue': unreferenced local variable
+E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt.cpp(2617,20): warning C4101: 'xpoint_str': unreferenced local variable
+E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt.cpp(2617,7): warning C4101: 'pubkey': unreferenced local variable
+E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt.cpp(2680,15): warning C4244: '=': conversion from 'uint64_t' to 'uint32_t', possible loss of data
+E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt.cpp(2681,29): warning C4244: 'argument': conversion from 'uint64_t' to 'long', possible loss of data
+E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt.cpp(2691,40): warning C4244: 'argument': conversion from 'uint64_t' to 'int', possible loss of data
+E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt.cpp(2694,59): warning C4244: 'argument': conversion from 'uint64_t' to 'int', possible loss of data
+E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt.cpp(2669,23): warning C4101: 'hextemp': unreferenced local variable
+E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt.cpp(2730,21): warning C4101: 'j': unreferenced local variable
+E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt.cpp(2977,40): warning C4244: 'argument': conversion from 'uint64_t' to 'int', possible loss of data
+E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt.cpp(2981,60): warning C4244: 'argument': conversion from 'uint64_t' to 'int', possible loss of data
+E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\keyhunt-msvc\keyhunt.cpp(2864,8): warning C4101: 'hextemp': unreferenced local variable
+  Generating code
+  1 of 342 functions ( 0.3%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    10 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  keyhunt-msvc.vcxproj -> E:\PROGRAMMING\VisualStudioProjects\keyhunt-msvc\x64\Release\keyhunt-msvc.exe

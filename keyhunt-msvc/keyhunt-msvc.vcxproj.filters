@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="base58">
+      <UniqueIdentifier>{6148a192-7d00-48e3-b55a-27b2a8d30698}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bloom">
+      <UniqueIdentifier>{65c558b0-8fbc-4360-ac53-4489ea244db8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rmd160">
+      <UniqueIdentifier>{f867e28a-7a25-4052-b4b5-e10a7a3f2882}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="secp256k1">
+      <UniqueIdentifier>{94104ebe-d651-4551-8830-dd1d8892339f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sha256">
+      <UniqueIdentifier>{200f2e7a-87a4-483c-98a0-7cfeab1e1dc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xxhash">
+      <UniqueIdentifier>{4b538a05-a58b-4c88-88d0-cbee38641edd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="keyhunt.cpp" />
+    <ClCompile Include="util.cpp" />
+    <ClCompile Include="secp256k1\Int.cpp">
+      <Filter>secp256k1</Filter>
+    </ClCompile>
+    <ClCompile Include="secp256k1\IntGroup.cpp">
+      <Filter>secp256k1</Filter>
+    </ClCompile>
+    <ClCompile Include="secp256k1\IntMod.cpp">
+      <Filter>secp256k1</Filter>
+    </ClCompile>
+    <ClCompile Include="secp256k1\Point.cpp">
+      <Filter>secp256k1</Filter>
+    </ClCompile>
+    <ClCompile Include="secp256k1\Random.cpp">
+      <Filter>secp256k1</Filter>
+    </ClCompile>
+    <ClCompile Include="secp256k1\SECP256K1.cpp">
+      <Filter>secp256k1</Filter>
+    </ClCompile>
+    <ClCompile Include="base58\base58.cpp">
+      <Filter>base58</Filter>
+    </ClCompile>
+    <ClCompile Include="bloom\bloom.cpp">
+      <Filter>bloom</Filter>
+    </ClCompile>
+    <ClCompile Include="xxhash\xxhash.cpp">
+      <Filter>xxhash</Filter>
+    </ClCompile>
+    <ClCompile Include="sha256\sha256.cpp">
+      <Filter>sha256</Filter>
+    </ClCompile>
+    <ClCompile Include="rmd160\rmd160.cpp">
+      <Filter>rmd160</Filter>
+    </ClCompile>
+    <ClCompile Include="getopt.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="util.h" />
+    <ClInclude Include="base58\libbase58.h">
+      <Filter>base58</Filter>
+    </ClInclude>
+    <ClInclude Include="bloom\bloom.h">
+      <Filter>bloom</Filter>
+    </ClInclude>
+    <ClInclude Include="xxhash\xxhash.h">
+      <Filter>xxhash</Filter>
+    </ClInclude>
+    <ClInclude Include="sha256\sha256.h">
+      <Filter>sha256</Filter>
+    </ClInclude>
+    <ClInclude Include="secp256k1\Int.h">
+      <Filter>secp256k1</Filter>
+    </ClInclude>
+    <ClInclude Include="secp256k1\IntGroup.h">
+      <Filter>secp256k1</Filter>
+    </ClInclude>
+    <ClInclude Include="secp256k1\Point.h">
+      <Filter>secp256k1</Filter>
+    </ClInclude>
+    <ClInclude Include="secp256k1\Random.h">
+      <Filter>secp256k1</Filter>
+    </ClInclude>
+    <ClInclude Include="secp256k1\SECP256k1.h">
+      <Filter>secp256k1</Filter>
+    </ClInclude>
+    <ClInclude Include="rmd160\rmd160.h">
+      <Filter>rmd160</Filter>
+    </ClInclude>
+    <ClInclude Include="getopt.h" />
+  </ItemGroup>
+</Project>
